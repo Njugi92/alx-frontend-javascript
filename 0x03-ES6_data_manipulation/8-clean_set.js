@@ -7,7 +7,7 @@ const cleanSet = (set, startString) => {
       strings.push(s.slice(startString.length));
     }
   });
-  return strings.join('-');  
+  return strings.join('-');
 };
 
 export default cleanSet;
